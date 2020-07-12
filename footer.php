@@ -3,7 +3,7 @@
         <div class="group">
           <div class="footer__col-one">
             <h1>
-            <a href="#"><strong>YUYOSOFT</strong> INNOVATIONS INC</a>
+            <a href="<?php echo site_url('/')?>"><strong>YUYOSOFT</strong> INNOVATIONS INC</a>
             </h1>
             <p><a class="footer__link" href="#">555.555.5555</a></p>
           </div>
@@ -13,7 +13,7 @@
               <h3 class="headline">Explore</h3>
               <nav class="nav-list">
                 <ul>
-                  <li><a href="#">About Us</a></li>
+                  <li><a href="<?php echo site_url('/about-us')?>">About Us</a></li>
                   <li><a href="#">Mobile Game</a></li>
                   <li><a href="#">Music Labels</a></li>
                 </ul>
@@ -24,8 +24,8 @@
               <h3 class="headline">Learn</h3>
               <nav class="nav-list">
                 <ul>
-                  <li><a href="#">Legal</a></li>
-                  <li><a href="#">Privacy</a></li>
+                  <li><a href="#">Contect us</a></li>
+                  <li><a href="<?php echo site_url('/privacy')?>">Privacy</a></li>
                   <li><a href="#">Careers</a></li>
                 </ul>
               </nav>
